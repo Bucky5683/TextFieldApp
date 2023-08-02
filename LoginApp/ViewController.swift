@@ -41,6 +41,8 @@ class ViewController: UIViewController, UITextFieldDelegate{
 
     func setTextLabelText(){
         textLabel.text = textField.text
+        textField.text = ""
+        textField.placeholder = "email"
         textField.resignFirstResponder()
     }
     
