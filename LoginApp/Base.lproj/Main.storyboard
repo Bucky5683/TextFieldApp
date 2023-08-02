@@ -64,6 +64,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="doneButton" destination="59U-ug-Das" id="UIa-3h-uQ4"/>
                         <outlet property="textField" destination="vTg-hf-HpA" id="CW8-r1-2k5"/>
                         <outlet property="textLabel" destination="NbH-RC-kc8" id="9bb-z6-JrS"/>
                     </connections>
